@@ -8,7 +8,10 @@ You can install the p4-syntax-highlighter package in SublimeText from the packag
 1. For EMACS:
       - Copy the P4.el file to the appropriate directory of EMACS on your system.  
 2. For VIM 3 methods are available.
-      - Copy both "ftdetect" & "syntax" directory inside "~/.vim/" on your system.
+      - Copy both "ftdetect" & "syntax" directory inside "~/.vim/" on your LINUX system.
+        Copy both "ftdetect" & "syntax" directory inside "$USER_PROFILE/vimfiles/" on your WINDOWS system.
+        cf) On Ubuntu vim.tiny is default so you will need to "sudo apt-get install vim".
+            It will change to vim.basic for default.
       - To use with Vundle plug-in manager, add the following line to your bundle configuration file:  
         ```Bundle 'c3m3gyanesh/p4-syntax-highlighter-collection', {'rtp': 'vim'}```.
       - Use the install script:  
